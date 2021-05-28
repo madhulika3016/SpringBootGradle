@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<context:component-scan base-package="com.example.demo" />
+	
+	<!-- <bean id="l1" class="com.example.demo.Laptop">
+	<property name="lid">
+	<value>111</value>
+	</property>
+	<property name="Company">
+	<value>Lenovo</value>
+	</property></bean>
+	
+	<bean id="a1" class="com.example.demo.Address">
+	<property name="city">
+	<value>Mumbai</value>
+	</property>
+	</bean>
+	<bean id="l2" class="com.example.demo.Laptop">
+	<property name="lid">
+	<value>222</value>
+	</property>
+	<property name="Company">
+	<value>Acer</value>
+	</property></bean>
+	<bean id="s1" class="com.example.demo.Student">
+		<constructor-arg type="int">
+		<value>102</value>
+		</constructor-arg>
+		<constructor-arg>
+		<value>MadhuLika Dubey</value>
+		</constructor-arg>
+		<constructor-arg>
+		<ref bean="l1"></ref>
+		</constructor-arg>
+		<constructor-arg>
+		<ref bean="a1"></ref>
+		</constructor-arg>
+		</bean>
+		<property name="sid">
+		<value>103</value>
+		</property>
+		 <property name="sname">
+		<value>Madhavi</value>
+		</property>
+		<property name="laptop" ref="l1"></property>
+	</bean>
+	<bean id="s2" class="com.example.demo.Student">
+	<property name="sid">
+		<value>104</value>
+		</property>
+		 <property name="sname">
+		<value>Mahima</value>
+		</property>
+		<property name="laptop" ref="l2"></property>
+		</bean> -->
+</beans>

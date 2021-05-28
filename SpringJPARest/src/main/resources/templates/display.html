@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>My First Thymeleaf</title>
+
+</head>
+<body  style="background-image: url('images/waterfall.jpg'); background-size:cover; color:red">
+
+Welcome to my spring Boot Application
+<h1 th:text="'Welcome to first Thymeleaf'"></h1>
+<div>
+<image th:src></image>
+</div>
+
+<table>    
+<tr>    
+<td><h4>Employee Name: </h4></td>    
+<td><h4 th:text="${emp.ename}"></h4></td> 
+
+   
+</tr>    
+<tr>    
+<td><h4>Tech: </h4></td>    
+<td><h4 th:text="${emp.tech}"></h4></td>    
+</tr>    
+</table>    
+
+</body>
+</html>
